@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px">
+
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="组总利润："
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editText_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="240000"
+            android:gravity="right"
+            android:paddingRight="20px"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px">
+
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人利润："
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editText_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="60000"
+            android:gravity="right"
+            android:paddingRight="20px"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px">
+
+        <TextView
+            android:id="@+id/textView_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="成员数目："
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editText_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="4"
+            android:gravity="right"
+            android:paddingRight="20px"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px">
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="名次倍率："
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editText_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="1.0"
+            android:gravity="right"
+            android:paddingRight="20px"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px">
+
+        <TextView
+            android:id="@+id/textView_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是组长："
+            android:textSize="20sp"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计算"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px">
+
+        <TextView
+            android:id="@+id/textView_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="平均奖金："
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editText_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="20px"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px">
+
+        <TextView
+            android:id="@+id/textView_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人奖金："
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/editText_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:paddingRight="20px"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
